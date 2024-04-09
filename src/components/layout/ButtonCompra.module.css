@@ -1,0 +1,21 @@
+.comprar {
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #4fff4f;
+    font-size: 1.4em;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.comprar a {
+    text-decoration: none;
+    color: white;
+}
+.comprar a:hover {
+ color: #4fff4f;
+}
+.comprar:hover {
+    background-color: #000;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
