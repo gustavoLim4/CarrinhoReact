@@ -1,3 +1,19 @@
 .sobre_container {
-    height: 65vh;
+    height: 140vh;
+}
+
+.sobre_container h1 {
+    display: flex;
+    justify-content: center;
+}
+.sobre_container p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    margin-bottom: 5%;
+}
+.cards_funcionarios {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
