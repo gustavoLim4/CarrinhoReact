@@ -1,0 +1,27 @@
+.container_btn {
+    display: flex;
+    justify-content: center;
+    
+}
+.cardapio {
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+    background-color: #000000;
+    font-size: 1.6em;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    color: #4fff4f;
+}
+.cardapio a {
+    text-decoration: none;
+    color: white;
+}
+
+.cardapio:hover {
+    background-color: #4fff4f;
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: #000000;
+}

@@ -1,0 +1,63 @@
+.carrinhoPG {
+    height: 65vh;
+}
+.caixa_cart {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #000;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.caixa_cart img {
+    width: 20%;
+    border-radius: 20px;
+}
+
+.caixa_cart h1 {
+    font-size: 1.9em;
+
+}
+
+.caixa_cart p {
+    font-size: 1.6em;
+    color: #4fff4f;
+    font-weight: bold;
+}
+
+.caixa_cart button {
+    height: 50px;
+    width: 100px;
+    background-color: #ff2525;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.caixa_cart button:hover {
+    background-color: #d87070;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.messagem_addCarrinho p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.9em;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.messagem_addCarrinho span {
+    color: #4fff4f;
+    margin-left: 10px;
+    border-bottom: 3px solid #4fff4f;
+
+}

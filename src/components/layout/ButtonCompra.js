@@ -3,7 +3,7 @@ import styles from "./ButtonCompra.module.css";
 function ButtonCompra({ to, text , onClick }) {
   return (
     <div>
-      <button onClick={onClick} className={styles.comprar}>
+      <button  onClick={onClick} className={styles.comprar}>
         <Link to={to}> {text}</Link>
       </button>
     </div>
