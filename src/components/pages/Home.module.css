@@ -1,3 +1,5 @@
 .home_container {
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }

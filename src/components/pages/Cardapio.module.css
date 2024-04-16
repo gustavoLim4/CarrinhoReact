@@ -1,9 +1,28 @@
-.caixas_cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 75%;
-    margin: 0 auto;
-    
+.pg_cardapio {
+    background-color: rgb(232, 232, 232);
 }
+
+.pg_cardapio h2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9em;
+}
+
+.secess_Comida {
+    display: flex;
+    justify-content: center;
+}
+.secess_lanches {
+    display: flex;
+    justify-content: center;
+}
+.secess_Bebida {
+    display: flex;
+    justify-content: center;
+}
+.secess_Comida {
+    display: flex;
+    justify-content: center;
+}
+

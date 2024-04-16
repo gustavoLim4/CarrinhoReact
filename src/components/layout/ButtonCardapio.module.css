@@ -1,7 +1,7 @@
 .container_btn {
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 40px;
 }
 .cardapio {
     border: none;
