@@ -5,12 +5,13 @@
     width: 20%;
     height: 330px;
     border-radius: 20px;
-    
+    background-color: rgb(255, 255, 255);
 
 }
-.cardFCN:hover {
+.cardFCN:hover , 
+.cardFCN:hover .imagemFCN {
     transform: scale(1.1);
-    transition: 0.6s;
+    transition: 0.8s;
     
 }
 
@@ -19,6 +20,7 @@
 .cardFCN img {
     width: 100%;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .icons {

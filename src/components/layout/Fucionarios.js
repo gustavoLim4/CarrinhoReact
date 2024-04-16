@@ -7,22 +7,21 @@ import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 function Funcionarios() {
   return (
     <div className={styles.cardFCN}>
-
-      <img src={chefe1} alt="funcionario" />
-      
-      <h1>Patricia Lima</h1>
-
-      <ul className={styles.icons}>
-        <li className={styles.face}>
-          <FaFacebook />
-        </li>
-        <li className={styles.insta}>
-          <FaInstagram />
-        </li>
-        <li className={styles.linkedin}>
-          <FaLinkedin />
-        </li>
-      </ul>
+      <div className={styles.cardMover}>
+        <img src={chefe1} alt="funcionario" className={styles.imagemFCN}/>
+        <h1>Patricia Lima</h1>
+        <ul className={styles.icons}>
+          <li className={styles.face}>
+            <FaFacebook />
+          </li>
+          <li className={styles.insta}>
+            <FaInstagram />
+          </li>
+          <li className={styles.linkedin}>
+            <FaLinkedin />
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

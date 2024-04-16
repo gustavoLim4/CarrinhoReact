@@ -1,10 +1,14 @@
 .sobre_container {
-    margin-bottom: 60px;
+    padding: 20px 0px 50px;
+    background-color: rgb(232, 232, 232);
+
 }
 
 .sobre_container h1 {
+    margin: 0;
     display: flex;
     justify-content: center;
+    
 }
 .sobre_container p {
     width: 90%;

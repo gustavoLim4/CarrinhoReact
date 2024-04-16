@@ -1,5 +1,5 @@
 .nav  {
-    padding: 20px;
+    padding: 20px 0px 1px 0px;
     background-color: black;
     
 }
@@ -21,22 +21,24 @@
 }
 .item:hover {
     transition: 0.4s;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.carrinho a {
+.carrinho img{
+    width: 100%;
     border-radius: 100%;
-    color: #4fff4f;
-    background-color: white;
-    padding: 20px;
-    font-size: 2.1em;
+    border: #000;
+    margin-top: -15px;
 
 }
-.carrinho:hover {
-    transition: 0.4s;
+.carrinho img:hover {
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+.carrinho {
+    width: 7%;
     
 }
-.carrinho svg{
-    width: 70%;
-}
+
+
